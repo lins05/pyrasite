@@ -104,3 +104,5 @@ if platform.system() == 'Windows':
             print(err)
 
     inject = inject_win
+elif platform.system() == 'Darwin':
+    inject = inject_lldb
